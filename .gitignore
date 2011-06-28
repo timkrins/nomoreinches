@@ -1,0 +1,9 @@
+*.hex
+*.o
+*.elf
+*.DS_Store
+*.ngc
+*.gtl
+*.png
+mm
+millproject
