@@ -1,8 +1,10 @@
 h1. nomoreinches.
     
 nomoreinches takes output recieved from *pcb2gcode*, parses it, and outputs a file ready for sending to a *grbl* cnc controller.
+The output will be in millimetres (A measurement system used in some "lesser" countries of the world...)
+AND the minimum X and Y coordinates will be re-zeroed - something which can be extremely useful :)
 
-If you have a better name, send me an email!
+Also, if you have a better name for this program, send me an email!
 
 timkrins at the google dot the com
 
@@ -19,4 +21,4 @@ It will generate a new file called _convert-to-mm.ngc_
 
 Load this new file into your favorite serial command sender, and away you go :)
 
-*-Tim*
+* - Tim*
