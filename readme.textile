@@ -1,0 +1,22 @@
+h1. nomoreinches.
+    
+nomoreinches takes output recieved from *pcb2gcode*, parses it, and outputs a file ready for sending to a *grbl* cnc controller.
+
+If you have a better name, send me an email!
+
+timkrins at the google dot the com
+
+to compile, run
+_gcc mm.c -o nomoreinches_
+
+and to use the application, run
+
+_nomoreinches [input gcode file]_
+
+It will look for the default "front.ngc" unless you specify another.
+
+It will generate a new file called _convert-to-mm.ngc_
+
+Load this new file into your favorite serial command sender, and away you go :)
+
+*-Tim*
