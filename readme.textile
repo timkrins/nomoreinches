@@ -25,4 +25,4 @@ It will generate a new file called _convert-to-mm.ngc_
 
 Load this new file into your favorite serial command sender, and away you go :)
 
-* - Tim*
+* - Tim *
