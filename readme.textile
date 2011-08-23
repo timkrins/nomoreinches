@@ -15,6 +15,10 @@ and to use the application, run
 
 _nomoreinches [input gcode file]_
 
+Otherwise, use the python version.
+
+_python nomore.py [input gcode file]_
+
 It will look for the default "front.ngc" unless you specify another.
 
 It will generate a new file called _convert-to-mm.ngc_
